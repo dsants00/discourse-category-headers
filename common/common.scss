@@ -20,8 +20,6 @@ div[class^="category-title-header"] {
   justify-content: flex-start;
   text-align: left !important;
 
-
-
   @if $header_style == "box" {
     border: 2px solid $primary_low;
   } @else {
