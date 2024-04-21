@@ -15,7 +15,8 @@ div[class^="category-title-header"] {
   //max-height: 200px !important;
   //font-size: 2.5em;
   //font-weight: 600;
-  
+  display: flex;
+
   @if $header_style == "box" {
     border: 2px solid $primary_low;
   } @else {
