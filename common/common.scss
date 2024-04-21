@@ -16,6 +16,8 @@ div[class^="category-title-header"] {
   //font-size: 2.5em;
   //font-weight: 600;
   display: flex;
+  flex-direction: column;
+
 
   @if $header_style == "box" {
     border: 2px solid $primary_low;
