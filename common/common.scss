@@ -10,10 +10,10 @@ div[class^="category-title-header"] {
   width: 100%;
   justify-content: center;
   overflow: hidden;
-  margin: 0px auto;
-  max-width: 1200px !important;
-  padding: unset !important;
-  width: 90vw !important;
+  //margin: 0px auto;
+  //max-width: 1200px !important;
+  //padding: unset !important;
+  //width: 90vw !important;
   
   @if $header_style == "box" {
     border: 2px solid $primary_low;
