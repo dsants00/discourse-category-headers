@@ -10,7 +10,12 @@ div[class^="category-title-header"] {
   width: 100%;
   justify-content: center;
   overflow: hidden;
-  margin: 10px auto;
+  //margin: 10px auto;
+  height: 200px;
+  max-height: 200px !important;
+  cursor: default;
+    font-size: 2.5em;
+    font-weight: 600;
   
   @if $header_style == "box" {
     border: 2px solid $primary_low;
