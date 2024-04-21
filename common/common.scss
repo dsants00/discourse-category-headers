@@ -39,17 +39,12 @@ div[class^="category-title-header"] {
   }
     
   .category-title-contents {
-    //padding: 20px;
-    //width: 100%;
+    padding: 20px;
+    width: 100%;
     margin: 0px auto;
     max-width: 1200px !important;
     padding: unset !important;
-    width: 48vw !important;
-    display: grid;
-    grid-template-areas:
-        "logo title"
-        "logo description";
-    grid-template-columns: auto 1fr;
+    width: 90vw !important;
     svg {
       height: 1.5em;
       width: 1.1em;
