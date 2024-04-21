@@ -45,6 +45,11 @@ div[class^="category-title-header"] {
     max-width: 1200px !important;
     padding: unset !important;
     width: 48vw !important;
+    display: grid;
+    grid-template-areas:
+        "logo title"
+        "logo description";
+    grid-template-columns: auto 1fr;
     svg {
       height: 1.5em;
       width: 1.1em;
