@@ -11,7 +11,7 @@ div[class^="category-title-header"] {
   justify-content: center;
   overflow: hidden;
   //margin: 10px auto;
-  //height: 200px;
+  height: 200px;
   //max-height: 200px !important;
   //font-size: 2.5em;
   //font-weight: 600;
@@ -50,6 +50,10 @@ div[class^="category-title-header"] {
       }
       h1 {
         display: inline;
+        cursor: default;
+        //font-family: "Inter", sans-serif;
+        font-size: 2.5em;
+        font-weight: 600;
       }      
   }
   .category-title-description {
